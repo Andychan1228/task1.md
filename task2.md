@@ -39,4 +39,4 @@ The next phase focuses on the core application logic:
 2.  **State Management**: Implement React hooks (`useState`, `useEffect`) to handle URL inputs.
 3.  **API Integration**: Set up **Redux Toolkit (RTK) Query** to fetch data from the RapidAPI Article Summarizer.
 4.  **Local Storage**: Implement logic to save and display search history.
-![alt text](images/1SC.png)
+![alt text](public/images/1SC.png)

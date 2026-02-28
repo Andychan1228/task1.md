@@ -16,7 +16,7 @@ I used `create-next-app` to bootstrap the application with the following configu
 ```bash
 npx create-next-app@latest ai-summary-app
 ```
-![alt text](images/SC1.png)
+![alt text](public/images/SC1.png)
 
 ## Step 2: Clean Up and Create the UI
 Cleaned up the boilerplate code and created a simple landing page for our AI Summary App.
@@ -63,7 +63,7 @@ export default function Home() {
     </main>
   );
 }
-![alt text](images/SC2.png)
+![alt text](public/images/SC2.png)
 
 ## Step 3: Create a Health Check API
 Created a simple API endpoint to check if the backend is running.
@@ -80,7 +80,7 @@ export async function GET() {
     timestamp: new Date().toISOString()
   });
 }
-![alt text](images/SC3.png)
+![alt text](public/images/SC3.png)
 ## Conclusion
 
 Successfully initialized the project, cleaned up the boilerplate code, created a custom UI using Tailwind CSS, and established a basic backend API endpoint.
